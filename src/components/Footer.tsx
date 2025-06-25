@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
                 <img 
                   src="/lovable-uploads/4ccc7f7c-5669-4a9c-9fea-01fea4519188.png" 
                   alt="Government Degree College Logo"
-                  className="h-12 w-12 object-contain rounded-full border-2 border-gray-600"
+                  className="h-20 w-20 object-contain rounded-full border-2 border-gray-600"
                 />
               </div>
               <div className="text-left">
@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
                 <img 
                  src="/lovable-uploads/naveen.png"
                   alt="Government Degree College Logo"
-                  className="h-12 w-12 object-contain rounded-full border-2 border-gray-600"
+                  className="h-20 w-20 object-contain rounded-full border-2 border-gray-600"
                 />
               </div>
               <div className="text-left">
