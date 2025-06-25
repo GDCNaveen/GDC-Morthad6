@@ -13,6 +13,15 @@ const VideoGrid: React.FC<VideoGridProps> = ({ activeTab }) => {
 
   const videos = [
     {
+      id: '1095878389',
+      hash: '54f903f507',
+      title: 'Botany Department',
+      description: 'డియర్ స్టూడెంట్స్ ఇంటర్ కంప్లీట్ అయిన విద్యార్థినీ విద్యార్థులు డిగ్రీలో అడ్మిషన్ పొందటానికి చివరి తేదీ 25-06-2025..',
+      category: 'Mathematics',
+      thumbnail: 'https://vumbnail.com/1095878389.jpg'
+    },
+    
+    {
       id: '1095495803',
       hash: '55eac0fa5a',
       title: '10th Mathematics Part 1',
@@ -31,6 +40,13 @@ const VideoGrid: React.FC<VideoGridProps> = ({ activeTab }) => {
   ];
 
   const imageContents = [
+    {
+      id: 'img2',
+      title: 'Botany Department',
+      description: 'డియర్ స్టూడెంట్స్ ఇంటర్ కంప్లీట్ అయిన విద్యార్థినీ విద్యార్థులు డిగ్రీలో అడ్మిషన్ పొందటానికి చివరి తేదీ 25-06-2025..',
+      category: 'Science',
+      image: '/lovable-uploads/padma.png'
+    },
     {
       id: 'img1',
       title: 'College Campus Tour',
