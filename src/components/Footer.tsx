@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
                 <img 
                  src="/lovable-uploads/naveen.png"
                   alt="Government Degree College Logo"
-                  className="h-20 w-40 object-contain rounded-full border-2 border-gray-600"
+                  className="h-20 w-20 object-contain rounded-full border-2 border-gray-600"
                 />
               </div>
               <div className="text-left">
