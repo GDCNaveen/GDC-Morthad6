@@ -33,7 +33,7 @@ const VideoGrid: React.FC<VideoGridProps> = ({ activeTab }) => {
       hash: '55eac0fa5a',
       title: '10th Mathematics Part 1',
       description: 'Complete mathematical concepts and problem-solving techniques for 10th standard students. This comprehensive lesson covers fundamental topics with detailed explanations and practical examples.',
-      category: 'B.Sc. Phy.Sci.',
+      category: 'B.Sc.Phy.Sci.',
       thumbnail: 'https://vumbnail.com/1095495803.jpg'
     },
     {
@@ -41,7 +41,7 @@ const VideoGrid: React.FC<VideoGridProps> = ({ activeTab }) => {
       hash: 'adbdfa174b',
       title: 'Operating a Computer - Class 2',
       description: 'Introduction to computer operations for Class 2 students. Learn basic computer skills, understanding hardware components, and fundamental operations in an engaging and interactive way.',
-      category: 'B.Sc. Phy.Sci.',
+      category: 'B.Sc.Phy.Sci.',
       thumbnail: 'https://vumbnail.com/1095510347.jpg'
     }
   ];
