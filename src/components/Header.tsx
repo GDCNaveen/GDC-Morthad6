@@ -12,12 +12,12 @@ const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, currentUser })
 
   const tabs = [
     'All',
-    'Mathematics', 
-    'Science',
-    'Social',
-    'Telugu',
-    'English',
-    'Computer Science'
+    'Notices', 
+    'Prog & Events',
+    'B.A',
+    'B.Com',
+    'B.Sc.Life Sci.',
+    'B.Sc. Phy.Sci'
   ];
 
   return (
