@@ -16,7 +16,7 @@ const VideoGrid: React.FC<VideoGridProps> = ({ activeTab }) => {
       id: 'img3',
       title: 'Anti Drug Awareness Programme',
       description: '26-06-2025  -- అంతర్జాతీయ మాదకద్రవ్యాల వ్యతిరేక దినోత్సవం మోర్తాడ్ ప్రభుత్వ డిగ్రీ కళాశాలలో ఈరోజు నిర్వహించడం జరిగింది ఈ కార్యక్రమానికి ముఖ్య అతిథిగా హాజరైన కళాశాల ప్రిన్సిపల్ Dr.T.Peddanna గారు మాట్లాడుతూ యువత మత్తు పదార్థాలకు దూరంగా ఉండాలన్నారు నేడు యువత సరదాగా చాక్లెట్లు, సిగరెట్లు వంటి వాటి ద్వారా అలవాటై క్రమేణ మత్తుకు బానిసై విలువైన జీవితాలను వారిపై ఆధారపడ్డ కుటుంబాలను చీకటిమయం చేసుకుంటున్నారని విచక్షణ కోల్పోయి ప్రవర్తిస్తున్నారని సామాజిక సంబంధాలు కోల్పోతున్నారని ప్రిన్సిపల్ ఆందోళన వ్యక్తం చేశారు. విద్యార్థులు 1908 కి కాల్ చేసి డ్రగ్స్ వ్యాప్తిని అరికట్టాలని అన్నారు విద్యార్థులతో ప్రతిజ్ఞ చేయించారు ఈ కార్యక్రమము Anti Drug Committee  మరియు NSS ఆధ్వర్యంలో నిర్వహించడం అయినది ఈ కార్యక్రమంలో వైస్ ప్రిన్సిపాల్ Dr.Marripalli Bhoopathi, Anti Drug Committee Coordinator N. Rajaiah, Academic Coordinator U. Dhasharatha, Committee members Dr. P. Byula, Dr.B.Archana మరియు అధ్యాపక అధ్యాపకేతర సిబ్బంది విద్యార్థినీ విద్యార్థులు పాల్గొన్నారు',
-      category: 'B.A',
+      category: 'Prog & Events',
       image: '/lovable-uploads/anti drug.png'
     },
     {
@@ -24,7 +24,7 @@ const VideoGrid: React.FC<VideoGridProps> = ({ activeTab }) => {
       hash: '54f903f507',
       title: 'DOST Notification Phase-III',
       description: 'డియర్ స్టూడెంట్స్ ఇంటర్ కంప్లీట్ అయిన విద్యార్థినీ విద్యార్థులు డిగ్రీలో అడ్మిషన్ పొందటానికి చివరి తేదీ 25-06-2025..',
-      category: 'B.Sc.Life Sci.',
+      category: 'Notices',
       thumbnail: 'https://vumbnail.com/1095878389.jpg'
     },
     
