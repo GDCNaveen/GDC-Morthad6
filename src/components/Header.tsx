@@ -17,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, currentUser })
     'B.A',
     'B.Com',
     'B.Sc.Life Sci.',
-    'B.Sc. Phy.Sci'
+    'B.Sc.Phy Sci.'
   ];
 
   return (
