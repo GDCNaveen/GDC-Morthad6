@@ -43,7 +43,7 @@ const Index = () => {
     const loginData = {
       user: username,
       timestamp: new Date().toISOString(),
-      expiryDate: '2030-06-25',
+      expiryDate: '2030-06-20',
       expiryTime: '08:00:00'
     };
     
