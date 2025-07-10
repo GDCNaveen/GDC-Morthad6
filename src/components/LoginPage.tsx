@@ -133,7 +133,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLogin }) => {
 
         {/* Session Info */}
         <div className="mt-6 text-center text-sm text-gray-600">
-          <p>Session expires on June 30, 2025 at 8:00 AM</p>
+          <p>Session expires on July 30, 2025 at 8:00 AM</p>
         </div>
       </div>
     </div>
