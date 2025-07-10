@@ -19,15 +19,7 @@ const VideoGrid: React.FC<VideoGridProps> = ({ activeTab }) => {
       category: 'Prog & Events',
       image: '/lovable-uploads/anti drug.png'
     },
-    {
-      id: '1095878389',
-      hash: '54f903f507',
-      title: 'DOST Notification Phase-III',
-      description: 'డియర్ స్టూడెంట్స్ ఇంటర్ కంప్లీట్ అయిన విద్యార్థినీ విద్యార్థులు డిగ్రీలో అడ్మిషన్ పొందటానికి చివరి తేదీ 25-06-2025..',
-      category: 'Notices',
-      thumbnail: 'https://vumbnail.com/1095878389.jpg'
-    },
-    
+     
     {
       id: '1095495803',
       hash: '55eac0fa5a',
@@ -47,13 +39,6 @@ const VideoGrid: React.FC<VideoGridProps> = ({ activeTab }) => {
   ];
 
   const imageContents = [
-    {
-      id: 'img2',
-      title: 'DOST Notification Phase-III',
-      description: 'డియర్ స్టూడెంట్స్ ఇంటర్ కంప్లీట్ అయిన విద్యార్థినీ విద్యార్థులు డిగ్రీలో అడ్మిషన్ పొందటానికి చివరి తేదీ 25-06-2025.',
-      category: 'B.Sc.Life Sci.',
-      image: '/lovable-uploads/padma.png'
-    },
     {
       id: 'img1',
       title: 'College Campus Tour',
