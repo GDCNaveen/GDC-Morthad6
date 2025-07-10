@@ -62,6 +62,107 @@ const VideoGrid: React.FC<VideoGridProps> = ({ activeTab }) => {
       image: '/lovable-uploads/4ccc7f7c-5669-4a9c-9fea-01fea4519188.png'
     }
   ];
+  //Download Section
+  // Import the DownloadCard component
+import DownloadCard from './DownloadCard';
+
+// Downloadable files data
+const downloadableFiles = [
+  {
+    id: 'pdf1',
+    title: 'Mathematics Study Guide',
+    description: 'Comprehensive study guide covering all mathematical concepts for 10th standard with solved examples and practice problems.',
+    type: 'pdf' as const,
+    size: '2.5 MB',
+    url: '#',
+    category: 'Mathematics'
+  },
+  {
+    id: 'pdf2',
+    title: 'Science Lab Manual',
+    description: 'Complete laboratory manual with experiments, procedures, and safety guidelines for science practicals.',
+    type: 'pdf' as const,
+    size: '3.8 MB',
+    url: '#',
+    category: 'Science'
+  },
+  {
+    id: 'word1',
+    title: 'English Grammar Exercises',
+    description: 'Interactive grammar exercises and worksheets to improve English language skills and writing proficiency.',
+    type: 'word' as const,
+    size: '1.2 MB',
+    url: '#',
+    category: 'English'
+  },
+  {
+    id: 'word2',
+    title: 'Computer Science Project Template',
+    description: 'Project template and guidelines for computer science assignments with coding standards and documentation format.',
+    type: 'word' as const,
+    size: '850 KB',
+    url: '#',
+    category: 'Computer Science'
+  },
+  {
+    id: 'pdf3',
+    title: 'Telugu Literature Collection',
+    description: 'Collection of Telugu poems, stories, and literary works with explanations and cultural context.',
+    type: 'pdf' as const,
+    size: '4.2 MB',
+    url: '#',
+    category: 'Telugu'
+  },
+  {
+    id: 'word3',
+    title: 'Social Studies Assignment Template',
+    description: 'Template for social studies assignments including research guidelines, citation format, and presentation structure.',
+    type: 'word' as const,
+    size: '650 KB',
+    url: '#',
+    category: 'Social'
+  }
+];
+
+// Filtering logic
+const filteredDownloadableFiles = activeTab === 'All' 
+  ? downloadableFiles 
+  : activeTab === 'Download' 
+    ? downloadableFiles 
+    : downloadableFiles.filter(file => file.category === activeTab);
+
+// Combine all content
+const allContent = [...filteredVideos, ...filteredImageContents, ...filteredDownloadableFiles];
+
+// Render logic in JSX
+{allContent.map((item) => {
+  if ('id' in item && item.id.startsWith('img')) {
+    return (
+      <ImageContentCard
+        key={item.id}
+        content={item as any}
+      />
+    );
+  } else if ('id' in item && (item.id.startsWith('pdf') || item.id.startsWith('word'))) {
+    return (
+      <DownloadCard
+        key={item.id}
+        file={item as any}
+      />
+    );
+  } else {
+    return (
+      <VideoCard
+        key={item.id}
+        video={item as any}
+        onPlay={() => playVideo(item.id)}
+        setVideoRef={(ref) => setVideoRef(item.id, ref)}
+        isPlaying={currentPlayingId === item.id}
+      />
+    );
+  }
+})}
+
 
   const filteredVideos = activeTab === 'All' 
     ? videos 
