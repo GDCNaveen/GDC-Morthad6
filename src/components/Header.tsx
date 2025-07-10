@@ -11,6 +11,7 @@ const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, currentUser })
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const tabs = [
+    'All',
     'Downloads',
     'Notices', 
     'Prog & Events',
